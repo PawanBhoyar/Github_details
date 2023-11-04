@@ -1,13 +1,15 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+      ringOffsetColor: {
+        'transparent': 'transparent',
+      },
       backgroundColor: {
-      'navy-blue': '#0e1f3b',
-    }
-  },
+      },
+    },
   },
   plugins: [],
 }
-
