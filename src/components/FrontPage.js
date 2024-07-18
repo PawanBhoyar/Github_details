@@ -6,6 +6,7 @@ function FrontPage() {
   const [username, setUsername] = useState('');
   const [user, setUser] = useState(null);
   const [error, setError] = useState(null);
+  
 
   const fetchGitHubUser = async () => {
     try {
